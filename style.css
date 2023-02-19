@@ -1,0 +1,54 @@
+body {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+  background-image: url(./uno.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.led {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(100, 100, 100, .2);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+}
+
+.botones {
+  display: flex;
+  gap: 20px;
+}
+
+.boton {
+  width: 200px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgba(100, 100, 100, .4);
+  backdrop-filter: blur(4px);
+  border: transparent;
+  color: white;
+  font-size: 19px;
+}
+
+@media (max-width:600px) {
+  .botones {
+    flex-direction: column;
+  }
+}
