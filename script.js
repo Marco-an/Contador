@@ -12,13 +12,13 @@ btnAumentar.onclick = function () {
     vPantalla.style = 'color:blue;';
   }
   vPantalla.innerText = contador;
-}
+};
 
 btnReiniciar.onclick = function () {
   contador = 0;
   vPantalla.style = 'color:blue;';
   vPantalla.innerText = contador;
-}
+};
 
 btnReducir.onclick = function () {
   contador--;
@@ -28,5 +28,4 @@ btnReducir.onclick = function () {
     vPantalla.style = 'color:blue;';
   }
   vPantalla.innerText = contador;
-}
-
+};
