@@ -50,6 +50,7 @@ h1 {
   border: transparent;
   color: white;
   font-size: 19px;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
